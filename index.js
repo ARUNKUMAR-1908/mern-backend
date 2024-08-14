@@ -43,6 +43,9 @@ async function run() {
     //   const result = await booksCollection.find({}).toArray();
     //   res.send(result);
     // });
+    app.get('/',(req,res) => {
+      res.send("Hello welcome to my backend")
+    })
 
 
     //find by category
